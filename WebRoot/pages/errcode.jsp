@@ -45,5 +45,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
             		redirectPort="8443" 
 			<span class="hightLigth">URIEncoding="UTF-8"/></span>
 		</pre>
+	<p>5.HttpServletRequest getParameter取参时乱码</p>
+		<pre>
+		Stirng xxx = new String(request.getParemeter().getBytes("ISO-8859-1"),"UTF-8");
+		</pre>
 </body>
 </html>
