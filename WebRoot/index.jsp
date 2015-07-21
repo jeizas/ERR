@@ -27,6 +27,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     	<li><a href="./pages/intercept.jsp">ssh登录拦截器配置</a></li>
     	<li><a href="./pages/springmvcIntercept.jsp">springMVC拦截器配置</a></li>
     	<li><a href="./pages/errpage.jsp">错误页面引导</a></li>
+    	<li><a href="./pages/STdiff.jsp">springmvc与struts的区别</a></li>
     </ul>
 </body>
 </html>
